@@ -23,9 +23,8 @@ form.addEventListener("submit",()=>{
         updateLocalStorage();
     }
 })
-
+//local storage
 function updateLocalStorage(){
     localStorage.setItem("score",JSON.stringify(score))
 }
 points.innerHTML=`score: ${score}`
-
